@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UniCacheableMonoBehaviour
+namespace Kogane
 {
 	/// <summary>
 	/// Transform プロパティをキャッシュする MonoBehaviour

@@ -1,10 +1,11 @@
-# Uni Cacheable Mono Behaviour
+﻿# Uni Cacheable Mono Behaviour
 
 Transform プロパティをキャッシュする MonoBehaviour
 
 ## 使用例
 
 ```cs
+using Kogane;
 using UnityEngine;
 
 public class Example : CacheableMonoBehaviour
