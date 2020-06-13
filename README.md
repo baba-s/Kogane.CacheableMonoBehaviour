@@ -1,8 +1,10 @@
-﻿# Uni Cacheable Mono Behaviour
+# Uni Cacheable Mono Behaviour
 
-Transform プロパティをキャッシュする MonoBehaviour
+Transform・RectTransform プロパティをキャッシュする MonoBehaviour
 
 ## 使用例
+
+### Transform プロパティをキャッシュする「CacheableMonoBehaviour」
 
 ```cs
 using Kogane;
@@ -111,6 +113,98 @@ public class Example : CacheableMonoBehaviour
         AddLocalEulerAngleX( 1 );
         AddLocalEulerAngleY( 2 );
         AddLocalEulerAngleZ( 3 );
+    }
+}
+```
+
+### RectTransform プロパティをキャッシュする「CacheableUIBehaviour」
+
+```cs
+using Kogane;
+using UnityEngine;
+
+public class Example : CacheableUIBehaviour
+{
+    private void Start()
+    {
+        // anchoredPosition
+        {
+            Debug.Log( anchoredPosition );
+
+            ResetAnchoredPosition();
+            SetAnchoredPositionX( 1 );
+            SetAnchoredPositionY( 2 );
+            SetAnchoredPosition( 1, 2 );
+            SetAnchoredPosition( new Vector2( 1, 2 ) );
+            AddAnchoredPositionX( 1 );
+            AddAnchoredPositionY( 2 );
+            AddAnchoredPosition( 1, 2 );
+            AddAnchoredPosition( new Vector2( 1, 2 ) );
+        }
+        
+        // offsetMax
+        {
+            Debug.Log( offsetMax );
+            
+            SetOffsetMaxX( 1 );
+            SetOffsetMaxY( 2 );
+            SetOffsetMax( 1, 2 );
+            SetOffsetMax( new Vector2( 1, 2 ) );
+        }
+        
+        // offsetMin
+        {
+            Debug.Log( offsetMin );
+            
+            SetOffsetMinX( 1 );
+            SetOffsetMinY( 2 );
+            SetOffsetMin( 1, 2 );
+            SetOffsetMin( new Vector2( 1, 2 ) );
+        }
+        
+        // anchorMin
+        {
+            Debug.Log( anchorMin );
+            
+            SetAnchorMinX( 1 );
+            SetAnchorMinY( 2 );
+            SetAnchorMin( 1, 2 );
+            SetAnchorMin( new Vector2( 1, 2 ) );
+        }
+        
+        // anchorMax
+        {
+            Debug.Log( anchorMax );
+            
+            SetAnchorMaxX( 1 );
+            SetAnchorMaxY( 2 );
+            SetAnchorMax( 1, 2 );
+            SetAnchorMax( new Vector2( 1, 2 ) );
+        }
+        
+        // pivot
+        {
+            Debug.Log( pivot );
+            
+            SetPivotX( 1 );
+            SetPivotY( 2 );
+            SetPivot( 1, 2 );
+            SetPivot( new Vector2( 1, 2 ) );
+        }
+
+        // sizeDelta
+        {
+            Debug.Log( sizeDelta );
+
+            SetSizeDeltaX( 1 );
+            SetSizeDeltaY( 2 );
+            SetSizeDelta( 1, 2 );
+            SetSizeDelta( new Vector2( 1, 2 ) );
+            AddSizeDeltaX( 1 );
+            AddSizeDeltaY( 2 );
+            AddSizeDelta( 1, 2 );
+            AddSizeDelta( new Vector2( 1, 2 ) );
+        }
     }
 }
 ```
