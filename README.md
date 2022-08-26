@@ -1,4 +1,4 @@
-# Uni Cacheable Mono Behaviour
+# Kogane Cacheable Mono Behaviour
 
 Transform・RectTransform プロパティをキャッシュする MonoBehaviour
 
