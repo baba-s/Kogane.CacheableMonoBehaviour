@@ -83,7 +83,7 @@ namespace Kogane
         public void SetPositionX( float x )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 x,
                 pos.y,
@@ -98,7 +98,7 @@ namespace Kogane
         public void SetPositionY( float y )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 y,
@@ -113,7 +113,7 @@ namespace Kogane
         public void SetPositionZ( float z )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 pos.y,
@@ -127,7 +127,7 @@ namespace Kogane
         /// </summary>
         public void SetPosition( Vector2 v )
         {
-            transform.position = new Vector3
+            transform.position = new
             (
                 v.x,
                 v.y,
@@ -148,7 +148,7 @@ namespace Kogane
         /// </summary>
         public void SetPosition( float x, float y )
         {
-            transform.position = new Vector3
+            transform.position = new
             (
                 x,
                 y,
@@ -161,7 +161,7 @@ namespace Kogane
         /// </summary>
         public void SetPosition( float x, float y, float z )
         {
-            transform.position = new Vector3
+            transform.position = new
             (
                 x,
                 y,
@@ -175,7 +175,7 @@ namespace Kogane
         public void AddPositionX( float x )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + x,
                 pos.y,
@@ -190,7 +190,7 @@ namespace Kogane
         public void AddPositionY( float y )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 pos.y + y,
@@ -205,7 +205,7 @@ namespace Kogane
         public void AddPositionZ( float z )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 pos.y,
@@ -220,7 +220,7 @@ namespace Kogane
         public void AddPosition( Vector2 v )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + v.x,
                 pos.y + v.y,
@@ -243,7 +243,7 @@ namespace Kogane
         public void AddPosition( float x, float y )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + x,
                 pos.y + y,
@@ -258,7 +258,7 @@ namespace Kogane
         public void AddPosition( float x, float y, float z )
         {
             var pos = transform.position;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + x,
                 pos.y + y,
@@ -284,7 +284,7 @@ namespace Kogane
         public void SetLocalPositionX( float x )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 x,
                 pos.y,
@@ -299,7 +299,7 @@ namespace Kogane
         public void SetLocalPositionY( float y )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 y,
@@ -314,7 +314,7 @@ namespace Kogane
         public void SetLocalPositionZ( float z )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 pos.y,
@@ -328,7 +328,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalPosition( Vector2 v )
         {
-            transform.localPosition = new Vector3
+            transform.localPosition = new
             (
                 v.x,
                 v.y,
@@ -349,7 +349,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalPosition( float x, float y )
         {
-            transform.localPosition = new Vector3
+            transform.localPosition = new
             (
                 x,
                 y,
@@ -362,7 +362,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalPosition( float x, float y, float z )
         {
-            transform.localPosition = new Vector3
+            transform.localPosition = new
             (
                 x,
                 y,
@@ -376,7 +376,7 @@ namespace Kogane
         public void AddLocalPositionX( float x )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + x,
                 pos.y,
@@ -391,7 +391,7 @@ namespace Kogane
         public void AddLocalPositionY( float y )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 pos.y + y,
@@ -406,7 +406,7 @@ namespace Kogane
         public void AddLocalPositionZ( float z )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x,
                 pos.y,
@@ -421,7 +421,7 @@ namespace Kogane
         public void AddLocalPosition( Vector2 v )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + v.x,
                 pos.y + v.y,
@@ -444,7 +444,7 @@ namespace Kogane
         public void AddLocalPosition( float x, float y )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + x,
                 pos.y + y,
@@ -459,7 +459,7 @@ namespace Kogane
         public void AddLocalPosition( float x, float y, float z )
         {
             var pos = transform.localPosition;
-            pos = new Vector3
+            pos = new
             (
                 pos.x + x,
                 pos.y + y,
@@ -485,7 +485,7 @@ namespace Kogane
         public void SetEulerAngleX( float x )
         {
             var angles = transform.eulerAngles;
-            angles = new Vector3
+            angles = new
             (
                 x,
                 angles.y,
@@ -500,7 +500,7 @@ namespace Kogane
         public void SetEulerAngleY( float y )
         {
             var angles = transform.eulerAngles;
-            angles = new Vector3
+            angles = new
             (
                 angles.x,
                 y,
@@ -515,7 +515,7 @@ namespace Kogane
         public void SetEulerAngleZ( float z )
         {
             var angles = transform.eulerAngles;
-            angles = new Vector3
+            angles = new
             (
                 angles.x,
                 angles.y,
@@ -537,7 +537,7 @@ namespace Kogane
         /// </summary>
         public void SetEulerAngles( float x, float y, float z )
         {
-            transform.eulerAngles = new Vector3
+            transform.eulerAngles = new
             (
                 x,
                 y,
@@ -586,7 +586,7 @@ namespace Kogane
         public void SetLocalEulerAngleX( float x )
         {
             var angles = transform.localEulerAngles;
-            angles = new Vector3
+            angles = new
             (
                 x,
                 angles.y,
@@ -601,7 +601,7 @@ namespace Kogane
         public void SetLocalEulerAngleY( float y )
         {
             var angles = transform.localEulerAngles;
-            angles = new Vector3
+            angles = new
             (
                 angles.x,
                 y,
@@ -616,7 +616,7 @@ namespace Kogane
         public void SetLocalEulerAngleZ( float z )
         {
             var angles = transform.localEulerAngles;
-            angles = new Vector3
+            angles = new
             (
                 angles.x,
                 angles.y,
@@ -638,7 +638,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalEulerAngles( float x, float y, float z )
         {
-            transform.localEulerAngles = new Vector3
+            transform.localEulerAngles = new
             (
                 x,
                 y,
@@ -687,7 +687,7 @@ namespace Kogane
         public void SetLocalScaleX( float x )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 x,
                 scale.y,
@@ -702,7 +702,7 @@ namespace Kogane
         public void SetLocalScaleY( float y )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x,
                 y,
@@ -717,7 +717,7 @@ namespace Kogane
         public void SetLocalScaleZ( float z )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x,
                 scale.y,
@@ -731,7 +731,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalScale( Vector2 v )
         {
-            transform.localScale = new Vector3
+            transform.localScale = new
             (
                 v.x,
                 v.y,
@@ -752,7 +752,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalScale( float x, float y )
         {
-            transform.localScale = new Vector3
+            transform.localScale = new
             (
                 x,
                 y,
@@ -765,7 +765,7 @@ namespace Kogane
         /// </summary>
         public void SetLocalScale( float x, float y, float z )
         {
-            transform.localScale = new Vector3
+            transform.localScale = new
             (
                 x,
                 y,
@@ -779,7 +779,7 @@ namespace Kogane
         public void AddLocalScaleX( float x )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x + x,
                 scale.y,
@@ -794,7 +794,7 @@ namespace Kogane
         public void AddLocalScaleY( float y )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x,
                 scale.y + y,
@@ -809,7 +809,7 @@ namespace Kogane
         public void AddLocalScaleZ( float z )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x,
                 scale.y,
@@ -824,7 +824,7 @@ namespace Kogane
         public void AddLocalScale( Vector2 v )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x + v.x,
                 scale.y + v.y,
@@ -847,7 +847,7 @@ namespace Kogane
         public void AddLocalScale( float x, float y )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x + x,
                 scale.y + y,
@@ -862,7 +862,7 @@ namespace Kogane
         public void AddLocalScale( float x, float y, float z )
         {
             var scale = transform.localScale;
-            scale = new Vector3
+            scale = new
             (
                 scale.x + x,
                 scale.y + y,

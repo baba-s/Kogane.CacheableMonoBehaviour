@@ -43,10 +43,10 @@ namespace Kogane
         // anchoredPosition
         //================================================================================
         public void ResetAnchoredPosition()                   => anchoredPosition = Vector2.zero;
-        public void SetAnchoredPositionX( float  x )          => anchoredPosition = new Vector2( x, anchoredPosition.y );
-        public void SetAnchoredPositionY( float  y )          => anchoredPosition = new Vector2( anchoredPosition.x, y );
+        public void SetAnchoredPositionX( float  x )          => anchoredPosition = new( x, anchoredPosition.y );
+        public void SetAnchoredPositionY( float  y )          => anchoredPosition = new( anchoredPosition.x, y );
         public void SetAnchoredPosition( Vector2 v )          => anchoredPosition = v;
-        public void SetAnchoredPosition( float   x, float y ) => anchoredPosition = new Vector2( x, y );
+        public void SetAnchoredPosition( float   x, float y ) => anchoredPosition = new( x, y );
         public void AddAnchoredPositionX( float  x )          => anchoredPosition += new Vector2( x, 0 );
         public void AddAnchoredPositionY( float  y )          => anchoredPosition += new Vector2( 0, y );
         public void AddAnchoredPosition( Vector2 v )          => anchoredPosition += v;
@@ -55,50 +55,50 @@ namespace Kogane
         //================================================================================
         // offsetMax
         //================================================================================
-        public void SetOffsetMaxX( float  x )          => offsetMax = new Vector2( x, offsetMax.y );
-        public void SetOffsetMaxY( float  y )          => offsetMax = new Vector2( offsetMax.x, y );
+        public void SetOffsetMaxX( float  x )          => offsetMax = new( x, offsetMax.y );
+        public void SetOffsetMaxY( float  y )          => offsetMax = new( offsetMax.x, y );
         public void SetOffsetMax( Vector2 v )          => offsetMax = v;
-        public void SetOffsetMax( float   x, float y ) => offsetMax = new Vector2( x, y );
+        public void SetOffsetMax( float   x, float y ) => offsetMax = new( x, y );
 
         //================================================================================
         // offsetMin
         //================================================================================
-        public void SetOffsetMinX( float  x )          => offsetMin = new Vector2( x, offsetMin.y );
-        public void SetOffsetMinY( float  y )          => offsetMin = new Vector2( offsetMin.x, y );
+        public void SetOffsetMinX( float  x )          => offsetMin = new( x, offsetMin.y );
+        public void SetOffsetMinY( float  y )          => offsetMin = new( offsetMin.x, y );
         public void SetOffsetMin( Vector2 v )          => offsetMin = v;
-        public void SetOffsetMin( float   x, float y ) => offsetMin = new Vector2( x, y );
+        public void SetOffsetMin( float   x, float y ) => offsetMin = new( x, y );
 
         //================================================================================
         // anchorMin
         //================================================================================
-        public void SetAnchorMinX( float  x )          => anchorMin = new Vector2( x, anchorMin.y );
-        public void SetAnchorMinY( float  y )          => anchorMin = new Vector2( anchorMin.x, y );
+        public void SetAnchorMinX( float  x )          => anchorMin = new( x, anchorMin.y );
+        public void SetAnchorMinY( float  y )          => anchorMin = new( anchorMin.x, y );
         public void SetAnchorMin( Vector2 v )          => anchorMin = v;
-        public void SetAnchorMin( float   x, float y ) => anchorMin = new Vector2( x, y );
+        public void SetAnchorMin( float   x, float y ) => anchorMin = new( x, y );
 
         //================================================================================
         // anchorMax
         //================================================================================
-        public void SetAnchorMaxX( float  x )          => anchorMax = new Vector2( x, anchorMax.y );
-        public void SetAnchorMaxY( float  y )          => anchorMax = new Vector2( anchorMax.x, y );
+        public void SetAnchorMaxX( float  x )          => anchorMax = new( x, anchorMax.y );
+        public void SetAnchorMaxY( float  y )          => anchorMax = new( anchorMax.x, y );
         public void SetAnchorMax( Vector2 v )          => anchorMax = v;
-        public void SetAnchorMax( float   x, float y ) => anchorMax = new Vector2( x, y );
+        public void SetAnchorMax( float   x, float y ) => anchorMax = new( x, y );
 
         //================================================================================
         // pivot
         //================================================================================
-        public void SetPivotX( float  x )          => pivot = new Vector2( x, pivot.y );
-        public void SetPivotY( float  y )          => pivot = new Vector2( pivot.x, y );
+        public void SetPivotX( float  x )          => pivot = new( x, pivot.y );
+        public void SetPivotY( float  y )          => pivot = new( pivot.x, y );
         public void SetPivot( Vector2 v )          => pivot = v;
-        public void SetPivot( float   x, float y ) => pivot = new Vector2( x, y );
+        public void SetPivot( float   x, float y ) => pivot = new( x, y );
 
         //================================================================================
         // sizeDelta
         //================================================================================
-        public void SetSizeDeltaX( float  x )          => sizeDelta = new Vector2( x, sizeDelta.y );
-        public void SetSizeDeltaY( float  y )          => sizeDelta = new Vector2( sizeDelta.x, y );
+        public void SetSizeDeltaX( float  x )          => sizeDelta = new( x, sizeDelta.y );
+        public void SetSizeDeltaY( float  y )          => sizeDelta = new( sizeDelta.x, y );
         public void SetSizeDelta( Vector2 v )          => sizeDelta = v;
-        public void SetSizeDelta( float   x, float y ) => sizeDelta = new Vector2( x, y );
+        public void SetSizeDelta( float   x, float y ) => sizeDelta = new( x, y );
         public void AddSizeDeltaX( float  x )          => sizeDelta += new Vector2( x, 0 );
         public void AddSizeDeltaY( float  y )          => sizeDelta += new Vector2( 0, y );
         public void AddSizeDelta( Vector2 v )          => sizeDelta += v;
